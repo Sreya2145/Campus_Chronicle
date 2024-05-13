@@ -1,0 +1,42 @@
+.my-masonry-grid {
+    display: flex;
+    margin-left: -10px; /* Adjust according to your layout */
+    width: auto;
+  }
+  
+  .my-masonry-grid_column {
+    padding-left: 10px; /* Adjust according to your layout */
+    background-clip: padding-box;
+  }
+  
+  .image-container {
+    width: 100%;
+    margin-bottom: 10px; /* Adjust according to your layout */
+  }
+  
+  .image-container img {
+    display: block;
+    width: 100%;
+    border-radius: 5px;
+  }
+  
+  .enlarged {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 9999;
+    background-color: rgba(0, 0, 0, 0.9);
+    overflow: auto;
+  }
+  
+  .enlarged img {
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+    margin: auto;
+    padding: 10px;
+  }
+  
